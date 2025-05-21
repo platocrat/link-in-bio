@@ -85,6 +85,15 @@
         object-fit: cover;
         border-radius: 50%;
       }
+      .circle {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
       .thumbnail {
         width: 48px;
         height: 48px;
@@ -211,10 +220,12 @@
       
       <div class="links-row">
         <div class="item">
-          <img
-            class="thumbnail"
-            src="/thumbnails/ChatGPT Image May 20, 2025 at 08_59_56 PM--thumbnail-placeholder.png"
-          >
+          <div class="circle">
+            <img
+              style="width: 80%; height: 80%; object-fit: contain;"
+              src="/thumbnails/luffn-logo.png"
+            >
+          </div>
 
           <a 
             target="_blank" 
@@ -228,7 +239,7 @@
         <div class="item">
           <img
             class="thumbnail"
-            src="/thumbnails/ChatGPT Image May 20, 2025 at 08_59_56 PM--thumbnail-placeholder.png"
+            src="/thumbnails/personality-lab-product-logo.png"
           >
 
           <a 
